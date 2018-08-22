@@ -1,0 +1,38 @@
+.main-title {
+  font-family: Verdana;
+  font-size: 35px;
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-column-gap: 50px;
+  justify-content: space-around;
+  align-content: space-evenly;
+}
+
+.grid-item {
+  /* background-image: url('logo.png');
+  background-position: center; */
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: lightblue;
+  background-size: 250px;
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  padding-top: 75px
+}
+
+.user {
+  font-family: verdana;
+  font-weight: bold;
+  text-decoration: underline;
+  color: darkblue
+}
+
+.thing {
+  list-style: none;
+  text-align: center;
+}
